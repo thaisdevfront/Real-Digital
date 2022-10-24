@@ -72,7 +72,19 @@ justify-content: center;
 -webkit-align-items: center;
 align-items: center;
 }
-
+.swiper .swiper-button-next::after, .swiper-button-prev::after  {
+    font-size: 20px;
+}
+.swiper-button-next:after {
+    content: 'next';
+    font-size: 20px !important;
+}
+.swiper-button-prev.swiper-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+    font-size: 20px !important;
+}
 .swiper-slide img {
 display: block;
 width: 100%;
@@ -87,6 +99,7 @@ object-fit: cover;
     height: 100%;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 .swiper .btn-prod {
     background-color: #fff;
