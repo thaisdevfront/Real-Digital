@@ -1,0 +1,85 @@
+body {
+    /* fonts */
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    /* posição */
+    margin: 0px;
+    overflow: hidden;
+}
+
+.full-banner img {
+    width: 100%;
+}
+.full-banner .title {
+    padding: 10px 20px;
+}
+.full-banner .title h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    color: #064097;
+}
+.full-banner .title .title-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #064097;
+}
+.full-banner .title p {
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #000000;
+}
+
+form {
+    padding: 20px;
+    text-align: center;
+}
+form input[type="text"] {
+    background-color: #F5F5F5;
+    padding: 13px;
+    width: 100%;
+    margin: 5px 0px;
+    border: 0px;
+    border-radius: 20px;
+}
+form button {
+    padding: 10px 30px;
+    background-color: #064097;
+    color: #F5F5F5;
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+footer .buttons-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+footer .buttons-footer a {
+    color: white;
+    background: #064097;
+    border: 0px;
+    border-radius: 100px;
+    padding: 15px 17px;
+}
+footer .buttons-footer a .fa-whatsapp  {
+font-size: 20px;
+}
+footer .buttons-footer a .fa-chevron-right  {
+font-size: 20px;
+}
