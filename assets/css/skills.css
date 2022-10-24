@@ -42,6 +42,7 @@ body {
 .skills .skills-v {
     display: flex;
     align-items: center;
+    padding-right: 15px;
 }
 .full-banner .title p {
     font-size: 14px;
@@ -49,10 +50,15 @@ body {
 
     color: #000000;
 }
-.skills{
+.skills {
+    overflow-y: scroll;
     padding: 20px;
+    height: 190px;
 }
-
+.skills .skills-parent {
+    display: flex;
+    align-items: center;
+}
 
 footer {
     position: fixed;
