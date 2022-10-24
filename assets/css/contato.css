@@ -41,7 +41,15 @@ form {
     padding: 20px;
     text-align: center;
 }
-form input[type="text"] {
+form input {
+    background-color: #F5F5F5;
+    padding: 13px;
+    width: 100%;
+    margin: 5px 0px;
+    border: 0px;
+    border-radius: 20px;
+}
+form textarea {
     background-color: #F5F5F5;
     padding: 13px;
     width: 100%;
