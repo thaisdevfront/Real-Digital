@@ -5,9 +5,8 @@ body {
     font-weight: 500;
     /* posição */
     margin: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
-
 .full-banner img {
     width: 100%;
 }
@@ -36,6 +35,14 @@ body {
 
     color: #000000;
 }
+
+.sobre {
+    padding: 20px;
+    overflow-y: scroll;
+    
+    height: 140px;
+}
+
 footer {
     position: fixed;
     width: 100%;
