@@ -5,9 +5,8 @@ body {
     font-weight: 500;
     /* posição */
     margin: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
-
 .full-banner img {
     width: 100%;
 }

@@ -101,6 +101,78 @@ object-fit: cover;
     border-radius: 20px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
+.swiper .card-prod-sp {
+    background-image: url(../image/card-prod-sp.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.swiper .card-prod-ux {
+    background-image: url(../image/card-prod-ux.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.swiper .card-prod-ui {
+    background-image: url(../image/card-prod-ui.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.swiper .card-prod-wa {
+    background-image: url(../image/card-prod-wa.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.swiper .card-prod-ec {
+    background-image: url(../image/card-prod-ec.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.swiper .card-prod-cd {
+    background-image: url(../image/card-prod-cd.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.swiper .card-prod-classi {
+    background-image: url(../image/card-prod-classi.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*  .card-prod-sp .card-prod-ux .card-prod-ui .card-prod-wa .card-prod-ec .card-prod-cd .card-prod-classi  */
 .swiper .btn-prod {
     background-color: #fff;
     color: #064097;
@@ -109,44 +181,20 @@ object-fit: cover;
     border: 0px;
     border-radius: 20px;
 }
-.swiper .card-prod-id .title {
+.swiper .title {
     padding-top: 150px;
 }
-.swiper .card-prod-id .title h2 {
+.swiper .title h2 {
     font-weight: 700;
     font-size: 20px;
     line-height: 22px;
     text-transform: uppercase;
 
 }
-.swiper .card-prod-id .title .title-p {
+.swiper .title .title-p {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 12px;
     text-transform: uppercase;
-}
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-}
-footer .buttons-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-footer .buttons-footer a {
-    color: white;
-    background: #064097;
-    border: 0px;
-    border-radius: 100px;
-    padding: 15px 17px;
-}
-footer .buttons-footer a .fa-whatsapp  {
-font-size: 20px;
-}
-footer .buttons-footer a .fa-chevron-right  {
-font-size: 20px;
 }
