@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-
+        
     </header>
     <main>
         <div class="full-banner">
@@ -25,6 +25,7 @@
                 <p>Tenho orgulho de contribuir para o sucesso de nossos clientes, parceiros e empresas.</p>
             </div>
         </div>
+        
         <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
             <div class="swiper-wrapper" id="swiper-wrapper-ca662d081f246288" aria-live="polite">
               <div class="swiper-slide swiper-slide-active" role="group" aria-label="1/9">
@@ -32,7 +33,8 @@
                     <div class="title">
                         <p class="title-p">IDENTIDADE VISUAL</p>
                         <h2>ENTREGAMOS O MELHOR DO DESIGN PARA SUA EMPRESA.</h2>
-                        <a class="btn-prod" href="#" target="_blank" rel="noopener noreferrer"> Proximo <i class="fa-solid fa-chevron-right"></i></a>
+                        <button id="demo" class="btn-prod" onclick="myFunctionid()" target="_blank" rel="noopener noreferrer"> Proximo <i class="fa-solid fa-chevron-right"></i></button>
+                        
 
                     </div>
                 </div>
@@ -42,7 +44,7 @@
                     <div class="title">
                         <p class="title-p">SITES PERSONALIZADOS</p>
                         <h2>site personaliado de acordo com suas necessidades.</h2>
-                        <a class="btn-prod" href="#" target="_blank" rel="noopener noreferrer"> Proximo <i class="fa-solid fa-chevron-right"></i></a>
+                        <a class="btn-prod" onclick="myFunctionsp()" target="_blank" rel="noopener noreferrer"> Proximo <i class="fa-solid fa-chevron-right"></i></a>
 
                     </div>
                 </div></div>
@@ -97,24 +99,14 @@
                         <p class="title-p">CLASSIFICADO DE IMOVEIS</p>
                         <h2>Anuncie seu imóvel comercial em nosso sistema.</h2>
                         <a class="btn-prod" href="#" target="_blank" rel="noopener noreferrer"> Proximo <i class="fa-solid fa-chevron-right"></i></a>
-
+                        
                     </div>
                 </div></div>
-              <div class="swiper-slide" role="group" aria-label="9/9">
-                <div class="card-prod-id">
-                    <div class="title">
-                        <p class="title-p">IDETIDADE VISUAL</p>
-                        <h2>ENTREGAMOS O MELHOR DO DESIGN PARA SUA EMPRESA.</h2>
-                        <a class="btn-prod" href="#" target="_blank" rel="noopener noreferrer"> Proximo <i class="fa-solid fa-chevron-right"></i></a>
-
-                    </div>
-                </div></div>
+              
             </div>
             <div class="swiper-button-next" tabindex="0" role="button" aria-label="Próximo slide" aria-controls="swiper-wrapper-ca662d081f246288" aria-disabled="false"></div>
             <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Slide anterior" aria-controls="swiper-wrapper-ca662d081f246288" aria-disabled="true"></div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-            
-
     </main>
     <footer>
         <div class="buttons-footer">
@@ -126,10 +118,55 @@
         </div>
 
     </footer>
+    <div id="desc-prod-id" onclick="myCloseid()">
+        <img id="img-prod" src="" alt="">
+        <p id="title-p-prod">IDENTIDADE VISUAL</p>
+        <h1 id="title-prod">NÃO FAZEMOS APENAS LOGOS.</h1>
+        <p id="p-prod">A estética atrai e revela credibilidade. 
+        </br>
+            A essência fideliza e torna única para seus usuários.
+        </br>
+            A personalidade gera exclusividade e uma cultura singular.
+        </p>
+        <p class="p-prod">Desenvolvemos o branding, analisamos a sua cultura e 
+            potencializamos o tom de voz que só a sua marca possui. 
+            O resultado é o alinhamento entre propósito e posicionamento 
+            para a construção marcas relevantes e diferenciadas.</p>
+    </div>
+    <div id="desc-prod-sp" onclick="myCloseSp()">
+        <img id="img-prod" src="" alt="">
+        <p id="title-p-prod">SITES PERSONALIZADOS</p>
+        <h1 id="title-prod">SUCESSO É UM CONCEITO SÓLIDO, CLARO E ATRATIVO.</h1>
+        <p id="p-prod">O ponto em comum entre todas as marcas.</p>
+        <p class="p-prod">Nossas habilidades são pautadas pela busca de excelência na estratégia, 
+            design e comunicação. Nossas entregas demonstram como comunicar a promessa, a proposta 
+            e a personalidade da sua marca online e offline.</p>
+    </div>
+        
+
+   
+    <script>
+        // FUNÇO P/ ABRIR
+        function myFunctionid(){ 
+            document.getElementById("desc-prod-id").style.display = "block";
+        }
+        function myFunctionsp(){ 
+            document.getElementById("desc-prod-sp").style.display = "block";
+        }
+        // FUNCÇAO P/ FECHAR
+        function myCloseid(){
+            document.getElementById("desc-prod-id").style.display = "none"
+        } 
+        function myCloseSp(){
+            document.getElementById("desc-prod-sp").style.display = "none"
+        }   
+           
+
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/produto.js"></script>
     <script src="assets/js/all.js"></script>
-
+    
 </body>
 </html>
