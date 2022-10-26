@@ -1,45 +1,7 @@
-body {
-    /* fonts */
-    font-family: 'Lexend Deca', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    /* posição */
-    margin: 0px;
-    overflow: hidden;
+*{
+    transition: 0.3s;
+    transition-duration: 0.2s;
 }
-
-.full-banner img {
-    width: 100%;
-}
-.full-banner .title {
-    padding: 20px;
-}
-.full-banner .title h2 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 22px;
-    text-transform: uppercase;
-
-    color: #064097;
-}
-.full-banner .title .title-p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 12px;
-    text-transform: uppercase;
-    color: #064097;
-}
-.full-banner .title p {
-    font-size: 14px;
-    font-weight: 400;
-
-    color: #000000;
-}
-
-
-/* slide */
-
 body {
 position: relative;
 height: auto;
@@ -198,7 +160,28 @@ object-fit: cover;
     line-height: 12px;
     text-transform: uppercase;
 }
+/* sobre o produto */
+.sobre-prod {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 55%;
+}
+.valor{
+    padding: 15px;
+}
+.footer-prod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    bottom: 0px;
+    position: fixed;
+}
+.footer-prod a {
+    color: #064097 !important;
 
+}
+/* imagens dos produtos */
 div#desc-prod-id {
     transition-duration: 0.3s;
     transition-delay: 0.3s;
@@ -208,7 +191,7 @@ div#desc-prod-id {
     z-index: 9999;
     color: #064097;
     background-color: rgb(255, 255, 255);
-    height: 70%;
+    height: 85%;
     border: 0px;
     border-radius: 20px 20px 0px 0px;
     box-shadow: 0px 4px 12px rgb(0 0 0 / 20%);
@@ -238,20 +221,25 @@ div#desc-prod-sp {
     border: 0px;
     border-radius: 20px;
 }
-.title {
-    padding-top: 150px;
-}
-.title h1 {
+.sobre .title h2 {
     font-weight: 700;
     font-size: 20px;
     line-height: 22px;
     text-transform: uppercase;
 
+    color: #064097;
 }
-.title .title-p-prod {
+.sobre .title #title-p {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 12px;
     text-transform: uppercase;
+    color: #064097;
+}
+.sobre .title p {
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #000000;
 }

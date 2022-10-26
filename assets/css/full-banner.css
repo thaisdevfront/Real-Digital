@@ -21,6 +21,22 @@ body {
 
     color: #064097;
 }
+.full-banner .title h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    color: #064097;
+}
+ #title-prod{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    color: #064097;
+}
 .full-banner .title .title-p {
     font-style: normal;
     font-weight: 500;
@@ -29,7 +45,21 @@ body {
     text-transform: uppercase;
     color: #064097;
 }
+.sobre #title-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #064097;
+}
 .full-banner .title p {
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #000000;
+}
+.sobre.title-p {
     font-size: 14px;
     font-weight: 400;
 
